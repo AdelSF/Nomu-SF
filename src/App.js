@@ -1,22 +1,13 @@
+import Header from './components/shared/Header';
+import Footer from './components/shared/Footer';
+import AppWrapper from './Routes';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Nomu Skeweres website is under construction
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
+      <AppWrapper />
     </div>
   );
 }
