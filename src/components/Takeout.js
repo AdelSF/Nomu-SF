@@ -9,7 +9,7 @@ export default function Takeout(){
         <Container>
             takeout page
             <Button>
-                <a href="https://pos.toasttab.com/" target="_blank" >Order Online </a>
+                <a href="https://www.toasttab.com/nomu-skewers-580-bush-street" target="_blank" >Order Online </a>
             </Button>
         </Container>
     )

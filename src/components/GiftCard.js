@@ -9,7 +9,7 @@ export default function GiftCard(){
         <Container>
             Gift card page
             <Button>
-                <a href="https://pos.toasttab.com/" target="_blank" >Buy Gift Card </a>
+                <a href="https://pos.toasttab.com/" target="_blank" >Buy Gift Card</a>
             </Button>
         </Container>
     )

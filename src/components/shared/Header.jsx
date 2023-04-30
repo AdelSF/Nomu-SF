@@ -31,8 +31,8 @@ export default function Header() {
                         <Item onClick={hamOnClick} to='/' >HOME</Item>
                         <Item onClick={hamOnClick} to='/takeout' >TAKEOUT</Item>
                         <Item onClick={hamOnClick} to='/foodmenu' >FOODS</Item>
-                        <Item onClick={hamOnClick} to='/drinkmenu' >DRINKD</Item>
-                        <Item onClick={hamOnClick} to='/giftcard' >GIFT CARD</Item>
+                        <Item onClick={hamOnClick} to='/drinkmenu' >DRINKS</Item>
+                        {/* <Item onClick={hamOnClick} to='/giftcard' >GIFT CARD</Item> */}
                         <Item onClick={hamOnClick} to='/contact' >CONTACT</Item>
                     </Items>
                 <Ham onClick={hamOnClick}>{hamContent}</Ham>
@@ -53,8 +53,8 @@ const Logo = styled.img`
     height: 50px;
     margin-left: 1.5rem;
     padding: 5px;
+    margin: 0px 10px;
     @media only screen and (max-width: 600px) {
-    margin: 3%;
   }
 `
 

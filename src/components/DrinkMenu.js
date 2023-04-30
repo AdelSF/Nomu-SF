@@ -8,6 +8,9 @@ export default function DrinkMenu(){
     return (
         <Container>
             Drink Menu page
+            <Button>
+                <a href="https://drive.google.com/file/d/1gqs21XAu1O8HBTijBFDj93FNQeb6DVi3/view?usp=share_link" target="_blank" >See the menu </a>
+            </Button>
         </Container>
     )
 }
@@ -18,4 +21,9 @@ const Container = styled.div`
     @media only screen and (max-width: 1100px) {
         width: 90%;
     }
+`
+
+const Button = styled.button`
+    width: 100px;
+    margin: 100px;
 `
